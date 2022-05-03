@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Magic 8 Ball</title>
+
+    <link rel="stylesheet" href="./css/style.css">
+    <script defer src="./js/main.js"></script>
+
+    <style type="text/css">
+         *{
+          font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+        }
+        body {
+            background: linear-gradient(85deg , blue , brown);
+        }
+        #content {
+            background: whitesmoke;
+            width: 450px;
+            margin: auto;
+            text-align: center;
+            padding: 25px;
+            border-radius: 6px;
+        }
+        #eightball {
+            width: 400px;
+            height: 400px;
+            background-color: black; 
+            margin: auto;
+            color: white;
+            border-radius: 110%;
+            display: grid;
+            align-items: center;
+            justify-content: center;
+
+        }
+    </style>
+
+</head>
+<body>
+    <div id="content">
+        <h1>Magic 8 Ball</h1>
+        <h2>Ask a question</h2>
+        <textarea id="Ask me anything!" cols="45" rows="5"></textarea>
+        <br>
+        <button>Ask!</button>
+        <div id="eightball"> 
+            <p id="answer">Users Question!</p>
+        </div>
+
+    </div>
+</body>
+</html>
